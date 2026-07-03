@@ -17,7 +17,7 @@ patches:
         value: ReadWriteMany
       - op: replace
         path: /spec/storageClassName
-        value: ocs-storagecluster-cephfs
+        value: storageclass-test-cephfs-87de0a30ec7e4dd
       - op: replace
         path: /metadata/labels/appname
         value: busybox_app3_cephfs
